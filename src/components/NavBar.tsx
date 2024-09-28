@@ -42,7 +42,7 @@ const NavBar: React.FC = () => {
           <Link to="/extracurricular" style={linkStyle}>Extracurricular</Link>
         </li>
         <li style={liStyle}>
-          <Link to="/publications" style={linkStyle}>Publicações</Link>
+          <Link to="/publications" style={linkStyle}>Acadêmico</Link>
         </li>
       </ul>
     </nav>

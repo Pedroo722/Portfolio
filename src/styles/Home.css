@@ -72,3 +72,41 @@ html {
         font-size: 16px;
     }
 }
+
+
+.experience-popup {
+    position: fixed;
+    right: 30px;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #1890ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+.experience-popup:hover {
+    width: 150px;
+    height: 60px;
+}
+
+.popup-text {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 0.3s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
