@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ExperienceItem from '../components/ExperienceItem';
+import ExperienceCard from '../components/ExperienceCard';
 import { Timeline, TimelineItem, TimelineSeparator, TimelineConnector, TimelineContent, TimelineDot } from '@mui/lab';
 import { UpOutlined, DownOutlined } from '@ant-design/icons';
 import { FaReact, FaPython } from 'react-icons/fa';
@@ -82,7 +82,7 @@ const Experience: React.FC = () => {
   };
 
   return (
-    <div style={{ display: 'flex', padding: '2rem', backgroundColor: '#f0f4f8', minHeight: '100vh' }}>
+    <div style={{ display: 'flex', padding: '2rem', backgroundColor: '#f0f4f8', minHeight: '55vh' }}>
       <div style={{ width: '30%', paddingRight: '2rem' }}>
         <h1>Minhas Experiências</h1>
         <Timeline>
@@ -106,7 +106,7 @@ const Experience: React.FC = () => {
                     const itemKey = `${year}-${index}`;
                     return (
                       <div key={itemKey} onClick={() => toggleItem(itemKey)} style={{ cursor: 'pointer' }}>
-                        <ExperienceItem
+                        <ExperienceCard
                           experience={experience}
                           expanded={expandedYears[year] || expandedItems[itemKey] || false}
                           onToggle={() => {}}

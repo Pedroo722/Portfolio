@@ -1,6 +1,6 @@
 import React from 'react';
 
-interface ExperienceItemProps {
+interface ExperienceCardProps {
   experience: {
     name: string;
     description: string[];
@@ -11,10 +11,10 @@ interface ExperienceItemProps {
   };
   expanded: boolean;
   onToggle: () => void;
-  techIcons: { [key: string]: JSX.Element | null }; // Adicionar prop para os ícones
+  techIcons: { [key: string]: JSX.Element | null }; 
 }
 
-const ExperienceItem: React.FC<ExperienceItemProps> = ({ experience, expanded, onToggle, techIcons }) => {
+const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience, expanded, onToggle, techIcons }) => {
   return (
     <div style={{ marginBottom: '1.5rem' }}>
       <div
@@ -93,4 +93,4 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({ experience, expanded, o
   );
 };
 
-export default ExperienceItem;
+export default ExperienceCard;
