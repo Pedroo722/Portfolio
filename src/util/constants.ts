@@ -1,4 +1,4 @@
-import { Experience, Project, Activity, Course } from "./type";
+import { Experience, Project, Activity, Course, Publication } from "./type";
 
 export const experiences: Experience[] = [
     {
@@ -94,12 +94,17 @@ export const activities: Activity[] = [
     {
       title: 'Participação em Grupo de Extensão em Robótica',
       description: 'Aprendi e apliquei na prática conceitos de robótica por meio de projetos e atividades realizadas nesse grupo para a robótica educacional. Incluindo programação em C++ por meio das plataformas Arduino e Lego.',
-      date: '2023 - Presente',
+      date: '2024',
     },
+    // {
+    //   title: 'Monitoria em Programação Orientada a Objetos',
+    //   description: 'Atuei como Monitor na cadeira de Programação Orientada a Objetos, auxiliando outros discentes em sala de aula com problemas e atividades na matéria.',
+    //   date: '2024',
+    // },
     // {
     //   title: 'Competição de Programação: Hackathon 2023',
     //   description: 'Desenvolvi uma aplicação para otimizar processos logísticos.',
-    //   date: '2023',
+    //   date: '2024',
     // },
 ];
 
@@ -139,4 +144,41 @@ export const courses: Course[] = [
       issuer: 'Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul',
       date: 'Agosto de 2023',
     },
+];
+
+export const publications: Publication[] = [
+  {
+    title: "A PROBLEMÁTICA DOS RESÍDUOS ELETROELETRÔNICOS EM CAMPINA GRANDE - PB",
+    authors: [
+      "Vinicius Cavalcante Pequeno",
+      "Pedro Henrique Alexandre da Rocha",
+      "Thiago dos Santos Araújo",
+    ],
+    coordinators: [
+      "Anne Karine de Queiroz Alves",
+      "Lúcia de Fátima Araújo Souto Badú",
+    ],
+    summary: "Este artigo explora a complexa problemática dos resíduos de equipamentos eletroeletrônicos (REEE) na cidade de Campina Grande, na Paraíba. A pesquisa foi realizada por meio de uma abrangente revisão bibliográfica que abrangeu estudos publicados desde 2014, utilizando dados coletados do Google Acadêmico. Os resultados evidenciam que a solução dos desafios relacionados à gestão dos REEE em Campina Grande demanda a criação de políticas de logística reversa mais eficazes, além de investimentos robustos em infraestrutura para a coleta e o tratamento apropriados desses resíduos. A pesquisa também sugere que investigações futuras devem se concentrar nas dimensões econômicas da reciclagem e reutilização dos REEE, assim como na melhoria das práticas que visam integrar essas atividades dentro da gestão urbana. Essas ações são absolutamente essenciais para minimizar o impacto ambiental dos resíduos eletroeletrônicos e promover um manejo mais sustentável na cidade, contribuindo para uma cidade mais limpa e saudável para as futuras gerações.",
+    references: [
+      "ALMEIDA, I. C.; SETTE, R. S. Marketing Político: a arte e a ciência. XXXIV Encontro da Anpad, Rio de Janeiro, 2010.",
+      "ALVES, F. F. de. Marketing político e eleitoral: um estudo sobre as estratégias e ferramentas necessárias para a construção de uma campanha política. Rio de Janeiro, Monografia, UFRJ, 2018.",
+      "SOUZA, Raphael Salviano de. Estratégias para a revalorização de resíduos de equipamentos eletroeletrônicos no Brasil: aplicando princípios da economia circular. Dissertação de Mestrado (Pós-graduação em Administração) - Universidade de Brasília, 2023.",
+      "FORTI, Vanessa; BALDÉ, Cornelis Peter; KUEHR, Ruediger; BEL, Garam. The Global E-waste Monitor, 2020.",
+      "SZIGETHY, Leonardo; ANTENOR, Samuel. Resíduos sólidos urbanos no Brasil: desafios tecnológicos, políticos e econômicos, 2021.",
+      "SANTOS, Dayse Hellen Pereira. Análise da importância da logística reversa no destino final do lixo eletrônico da cidade de Campina Grande-PB. Trabalho de conclusão de curso (Graduação em Administração) - Universidade Estadual da Paraíba, 2016.",
+      "SANTOS, Luciana Gomes. Responsabilidade socioambiental no setor comercial: descarte de materiais elétricos/eletrônicos na cidade de Campina Grande/PB. Trabalho de conclusão de curso (Graduação em Administração) - Universidade Estadual da Paraíba, 2016.",
+      "ARAÚJO, Elaine Patrícia; SANTOS, Amanda Gabriela Freitas; COSTA, Jussara Cristina Firmino da; ARAÚJO, Edcleide Maria. Estudo sobre a problemática da disposição inadequada dos resíduos eletrônicos entre educandos de uma escola municipal, 2016.",
+      "MIRANDA, Willians Paulo. Responsabilidade Socioambiental no setor comercial: descarte de materiais elétricos/eletrônicos na cidade de Campina Grande/PB. Trabalho de conclusão de curso (Curso Superior de Tecnologia em Gestão Comercial) - Instituto Federal da Paraíba – Campus Guarabira, 2021.",
+      "SILVA, Monica Maria Pereira; OLIVEIRA, Maria Albiege Sales. Gestão de resíduos de equipamentos eletroeletrônicos em cidade de grande porte da Paraíba, Brasil: um problema persistente, 2020.",
+      "SILVA, Jorge Luiz Bezerra. Estrutura e forma de funcionamento dos postos de coleta permanentes de Resíduos de Equipamentos Eletroeletrônicos (REEE) de Campina Grande/PB. Relatório de estágio apresentado no curso de Bacharelado em Administração da Universidade Federal de Campina Grande.",
+      "CASTRO, Inae; QUEIROZ, Jefferson Santos de; MORENO, João; PASCHOAL, Rhuan; BORGES, Daliana. O descarte do lixo eletrônico e seus impactos ambientais, 2021.",
+      "G1. Maior parte do lixo eletrônico do Brasil é descartada irregularmente, mas poderia ser reciclada. Jornal Nacional, 2023.",
+      "RESÍDUO ALL. Formas de disposição final de resíduos, 2017.",
+      "GOMES, Geraldo Sérgio; ANGULAR, Einstein Lemos. Métodos de custeio aplicados na indústria de reciclagem de eletroeletrônicos (REE), 2019.",
+      "ROMÃO, Débora Cristina de Freitas. Panorama da reciclagem de pilhas e baterias no Brasil e no mundo, 2020.",
+      "TOKARNIA, Maria. Brasil é o quinto maior produtor de lixo eletrônico, 2021.",
+      "POLÍTICA NACIONAL DE RESÍDUOS SÓLIDOS (PNRS). Lei 12.305, 2010.",
+    ],
+    link: "https://www.researchgate.net/publication/343286325_A_PROBLEMATICA_DOS_RESIDUOS_ELETROELETRONICOS_EM_CAMPINA_GRANDE_PB",
+  },
 ];

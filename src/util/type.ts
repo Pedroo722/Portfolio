@@ -29,3 +29,12 @@ export interface Course {
     issuer: string,
     date: string,
 }
+
+export interface Publication {
+    title: string;
+    authors: string[];
+    coordinators: string[];
+    summary: string;
+    references: string[];
+    link: string;  
+}

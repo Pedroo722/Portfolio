@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import Experience from './pages/Experience';
 import Projects from './pages/Projects';
 import Extracurricular from './pages/Extracurricular';
-import Publications from './pages/Publications';
+import Academic from './pages/Academic';
 
 const App: React.FC = () => {
   const appContentStyle: React.CSSProperties = {
@@ -22,7 +22,7 @@ const App: React.FC = () => {
           <Route path="/experience" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/extracurricular" element={<Extracurricular />} />
-          <Route path="/publications" element={<Publications />} />
+          <Route path="/publications" element={<Academic />} />
         </Routes>
       </div>
       <Footer />

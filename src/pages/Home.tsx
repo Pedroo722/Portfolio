@@ -32,7 +32,7 @@ const Home: React.FC = () => {
 
           <section className="tecnologies">
             <h2>Minhas principais tecnologias incluem:</h2>
-            <div style={{ textAlign: 'center' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
               <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript" title="Javascript" width="40" height="40" />
               <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML" title="HTML" width="40" height="40" />
               <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS" title="CSS" width="40" height="40" />
