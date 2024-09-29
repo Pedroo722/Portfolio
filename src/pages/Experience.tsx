@@ -32,7 +32,7 @@ const Experience: React.FC = () => {
   };
 
   return (
-    <div style={{ display: 'flex', padding: '2rem', backgroundColor: '#f0f4f8', minHeight: '55vh' }}>
+    <div style={{ display: 'flex', padding: '2rem', backgroundColor: '#f0f4f8', minHeight: '70vh' }}>
       <div style={{ width: '30%', paddingRight: '2rem' }}>
         <h1>Minhas Experiências</h1>
         <Timeline>

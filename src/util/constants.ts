@@ -179,6 +179,6 @@ export const publications: Publication[] = [
       "TOKARNIA, Maria. Brasil é o quinto maior produtor de lixo eletrônico, 2021.",
       "POLÍTICA NACIONAL DE RESÍDUOS SÓLIDOS (PNRS). Lei 12.305, 2010.",
     ],
-    link: "https://www.researchgate.net/publication/343286325_A_PROBLEMATICA_DOS_RESIDUOS_ELETROELETRONICOS_EM_CAMPINA_GRANDE_PB",
+    link: "https://scholar.google.com.br/?hl=pt",
   },
 ];

@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
     alignItems: 'center', 
     margin: '10px 0',
     justifyContent: 'flex-start', 
-    width: '300px', 
+    width: '400px', 
   };
 
   const iconStyle: React.CSSProperties = {
