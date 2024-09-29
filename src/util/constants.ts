@@ -25,17 +25,6 @@ export const experiences: Experience[] = [
       endDate: 'Em Andamento',
       repository: 'https://github.com/Pedroo722/Estacao-Meteorologica',
     },
-    // {
-    //   name: 'Projeto de Extensão Nacional em Análise de Dados 2024',
-    //   description: [
-    //     'Atuei em um projeto de extensão nacional que visava capacitar estudantes na análise de dados.',
-    //     'Utilizamos ferramentas como Python e Excel para análise estatística e visualização de dados.',
-    //   ],
-    //   technologies: ['Python', 'Pandas', 'Matplotlib', 'Excel'],
-    //   startDate: '01/01/2024',
-    //   endDate: '31/12/2024',
-    //   repository: '',
-    // },
 ];
   
 export const projects: Project[] = [
@@ -72,10 +61,7 @@ export const projects: Project[] = [
         '- *Decorator* - Usado na lógica dos serviços adicionais que um hóspede pode consumir durante uma estádia no hotel.', 
         '- *Strategy* - Usado na lógica de cálculo de custo da taxa base da diária no Hotel.',
       ],
-      images: [
-        { src: '/images/hotel1.png', caption: 'Hotel 1' },
-        { src: '/images/hotel2.png', caption: 'Hotel 2' },
-      ],
+      images: [],
     },
     {
       name: 'Automação em Python: Transformador de PDF em Citação para Artigo Científico',
@@ -86,7 +72,11 @@ export const projects: Project[] = [
         'Facilita a criação de referências bibliográficas de vários artigos ciéntificos de maneira rápida e fácil.',
         'Desenvolvido em Python com interface gráfica pelo Tinker.',
       ],
-      images: [],
+      images: [
+          { src: '/images/pdf2cite/Inicial.png', caption: 'Estado Inicial' },
+          { src: '/images/pdf2cite/PreUpload.png', caption: 'Arquivo selecionados' },
+          { src: '/images/pdf2cite/PosUpload.png', caption: 'Citações criadas' },
+      ],
     },
 ];
 
@@ -96,16 +86,6 @@ export const activities: Activity[] = [
       description: 'Aprendi e apliquei na prática conceitos de robótica por meio de projetos e atividades realizadas nesse grupo para a robótica educacional. Incluindo programação em C++ por meio das plataformas Arduino e Lego.',
       date: '2024',
     },
-    // {
-    //   title: 'Monitoria em Programação Orientada a Objetos',
-    //   description: 'Atuei como Monitor na cadeira de Programação Orientada a Objetos, auxiliando outros discentes em sala de aula com problemas e atividades na matéria.',
-    //   date: '2024',
-    // },
-    // {
-    //   title: 'Competição de Programação: Hackathon 2023',
-    //   description: 'Desenvolvi uma aplicação para otimizar processos logísticos.',
-    //   date: '2024',
-    // },
 ];
 
 export const courses: Course[] = [
